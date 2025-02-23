@@ -76,7 +76,7 @@ def get_openai_api_key():
     input_text = st.text_input(label="OpenAI API Key ", placeholder="Ex: sk-2twmA8tfCb8un4...", key="openai_api_key_input", type="password")
     return input_text
 
-get_openai_api_key = get_openai_api_key()
+openai_api_key = get_openai_api_key()
 
 # Input 
 st.markdown("## Enter the product review")
